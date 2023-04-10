@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Auto Copy",
+    "version": "1.0",
+    "description": "Automatically copy selected text to the clipboard",
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["autocopy.js"]
+        }
+        
+    ],
+    "background": {
+      "scripts": ["background.js"]
+    },
+
+    "permissions": ["clipboardWrite"]
+    
+}
+
+

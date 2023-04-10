@@ -1,0 +1,842 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7388689229E4119200BEFC50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7388689129E4119200BEFC50 /* AppDelegate.swift */; };
+		7388689629E4119200BEFC50 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 7388689429E4119200BEFC50 /* Main.html */; };
+		7388689829E4119200BEFC50 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7388689729E4119200BEFC50 /* Icon.png */; };
+		7388689A29E4119200BEFC50 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 7388689929E4119200BEFC50 /* Style.css */; };
+		7388689C29E4119200BEFC50 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 7388689B29E4119200BEFC50 /* Script.js */; };
+		7388689E29E4119200BEFC50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7388689D29E4119200BEFC50 /* ViewController.swift */; };
+		738868A129E4119200BEFC50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7388689F29E4119200BEFC50 /* Main.storyboard */; };
+		738868A329E4119300BEFC50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 738868A229E4119300BEFC50 /* Assets.xcassets */; };
+		738868AF29E4119300BEFC50 /* Auto_CopyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738868AE29E4119300BEFC50 /* Auto_CopyTests.swift */; };
+		738868B929E4119300BEFC50 /* Auto_CopyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738868B829E4119300BEFC50 /* Auto_CopyUITests.swift */; };
+		738868BB29E4119300BEFC50 /* Auto_CopyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738868BA29E4119300BEFC50 /* Auto_CopyUITestsLaunchTests.swift */; };
+		738868C129E4119300BEFC50 /* Auto Copy Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 738868C029E4119300BEFC50 /* Auto Copy Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		738868C629E4119300BEFC50 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738868C529E4119300BEFC50 /* SafariWebExtensionHandler.swift */; };
+		738868C929E4119300BEFC50 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 738868C829E4119300BEFC50 /* _locales */; };
+		738868CB29E4119300BEFC50 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 738868CA29E4119300BEFC50 /* images */; };
+		738868D129E4119300BEFC50 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 738868D029E4119300BEFC50 /* content.js */; };
+		738868D329E4119300BEFC50 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 738868D229E4119300BEFC50 /* popup.html */; };
+		738868D529E4119300BEFC50 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 738868D429E4119300BEFC50 /* popup.css */; };
+		738868D729E4119300BEFC50 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 738868D629E4119300BEFC50 /* popup.js */; };
+		738868EA29E411BC00BEFC50 /* autocopy.js in Resources */ = {isa = PBXBuildFile; fileRef = 738868E929E411BC00BEFC50 /* autocopy.js */; };
+		738868EC29E4120900BEFC50 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 738868EB29E4120900BEFC50 /* manifest.json */; };
+		738868ED29E4155A00BEFC50 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 738868EB29E4120900BEFC50 /* manifest.json */; };
+		738868EF29E41C0C00BEFC50 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 738868EE29E41C0C00BEFC50 /* background.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		738868AB29E4119300BEFC50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7388688629E4119200BEFC50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7388688D29E4119200BEFC50;
+			remoteInfo = "Auto Copy";
+		};
+		738868B529E4119300BEFC50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7388688629E4119200BEFC50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7388688D29E4119200BEFC50;
+			remoteInfo = "Auto Copy";
+		};
+		738868C229E4119300BEFC50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7388688629E4119200BEFC50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 738868BF29E4119300BEFC50;
+			remoteInfo = "Auto Copy Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		738868DF29E4119300BEFC50 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				738868C129E4119300BEFC50 /* Auto Copy Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7388688E29E4119200BEFC50 /* Auto Copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Auto Copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7388689129E4119200BEFC50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7388689529E4119200BEFC50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		7388689729E4119200BEFC50 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		7388689929E4119200BEFC50 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		7388689B29E4119200BEFC50 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		7388689D29E4119200BEFC50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		738868A029E4119200BEFC50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		738868A229E4119300BEFC50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		738868A429E4119300BEFC50 /* Auto_Copy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Auto_Copy.entitlements; sourceTree = "<group>"; };
+		738868A529E4119300BEFC50 /* Auto Copy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Auto Copy.entitlements"; sourceTree = "<group>"; };
+		738868AA29E4119300BEFC50 /* Auto CopyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Auto CopyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		738868AE29E4119300BEFC50 /* Auto_CopyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auto_CopyTests.swift; sourceTree = "<group>"; };
+		738868B429E4119300BEFC50 /* Auto CopyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Auto CopyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		738868B829E4119300BEFC50 /* Auto_CopyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auto_CopyUITests.swift; sourceTree = "<group>"; };
+		738868BA29E4119300BEFC50 /* Auto_CopyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auto_CopyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		738868C029E4119300BEFC50 /* Auto Copy Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Auto Copy Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		738868C529E4119300BEFC50 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		738868C829E4119300BEFC50 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		738868CA29E4119300BEFC50 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		738868D029E4119300BEFC50 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		738868D229E4119300BEFC50 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		738868D429E4119300BEFC50 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		738868D629E4119300BEFC50 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		738868D829E4119300BEFC50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		738868D929E4119300BEFC50 /* Auto_Copy_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Auto_Copy_Extension.entitlements; sourceTree = "<group>"; };
+		738868E929E411BC00BEFC50 /* autocopy.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = autocopy.js; sourceTree = "<group>"; };
+		738868EB29E4120900BEFC50 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		738868EE29E41C0C00BEFC50 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7388688B29E4119200BEFC50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		738868A729E4119300BEFC50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		738868B129E4119300BEFC50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		738868BD29E4119300BEFC50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7388688529E4119200BEFC50 = {
+			isa = PBXGroup;
+			children = (
+				7388689029E4119200BEFC50 /* Auto Copy */,
+				738868AD29E4119300BEFC50 /* Auto CopyTests */,
+				738868B729E4119300BEFC50 /* Auto CopyUITests */,
+				738868C429E4119300BEFC50 /* Auto Copy Extension */,
+				7388688F29E4119200BEFC50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7388688F29E4119200BEFC50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7388688E29E4119200BEFC50 /* Auto Copy.app */,
+				738868AA29E4119300BEFC50 /* Auto CopyTests.xctest */,
+				738868B429E4119300BEFC50 /* Auto CopyUITests.xctest */,
+				738868C029E4119300BEFC50 /* Auto Copy Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7388689029E4119200BEFC50 /* Auto Copy */ = {
+			isa = PBXGroup;
+			children = (
+				7388689129E4119200BEFC50 /* AppDelegate.swift */,
+				7388689D29E4119200BEFC50 /* ViewController.swift */,
+				7388689F29E4119200BEFC50 /* Main.storyboard */,
+				738868A229E4119300BEFC50 /* Assets.xcassets */,
+				738868A429E4119300BEFC50 /* Auto_Copy.entitlements */,
+				738868A529E4119300BEFC50 /* Auto Copy.entitlements */,
+				7388689329E4119200BEFC50 /* Resources */,
+			);
+			path = "Auto Copy";
+			sourceTree = "<group>";
+		};
+		7388689329E4119200BEFC50 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7388689429E4119200BEFC50 /* Main.html */,
+				7388689729E4119200BEFC50 /* Icon.png */,
+				7388689929E4119200BEFC50 /* Style.css */,
+				7388689B29E4119200BEFC50 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		738868AD29E4119300BEFC50 /* Auto CopyTests */ = {
+			isa = PBXGroup;
+			children = (
+				738868AE29E4119300BEFC50 /* Auto_CopyTests.swift */,
+			);
+			path = "Auto CopyTests";
+			sourceTree = "<group>";
+		};
+		738868B729E4119300BEFC50 /* Auto CopyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				738868B829E4119300BEFC50 /* Auto_CopyUITests.swift */,
+				738868BA29E4119300BEFC50 /* Auto_CopyUITestsLaunchTests.swift */,
+			);
+			path = "Auto CopyUITests";
+			sourceTree = "<group>";
+		};
+		738868C429E4119300BEFC50 /* Auto Copy Extension */ = {
+			isa = PBXGroup;
+			children = (
+				738868C529E4119300BEFC50 /* SafariWebExtensionHandler.swift */,
+				738868D829E4119300BEFC50 /* Info.plist */,
+				738868D929E4119300BEFC50 /* Auto_Copy_Extension.entitlements */,
+				738868C729E4119300BEFC50 /* Resources */,
+				738868E929E411BC00BEFC50 /* autocopy.js */,
+				738868EB29E4120900BEFC50 /* manifest.json */,
+				738868EE29E41C0C00BEFC50 /* background.js */,
+			);
+			path = "Auto Copy Extension";
+			sourceTree = "<group>";
+		};
+		738868C729E4119300BEFC50 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				738868C829E4119300BEFC50 /* _locales */,
+				738868CA29E4119300BEFC50 /* images */,
+				738868D029E4119300BEFC50 /* content.js */,
+				738868D229E4119300BEFC50 /* popup.html */,
+				738868D429E4119300BEFC50 /* popup.css */,
+				738868D629E4119300BEFC50 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7388688D29E4119200BEFC50 /* Auto Copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 738868E029E4119300BEFC50 /* Build configuration list for PBXNativeTarget "Auto Copy" */;
+			buildPhases = (
+				7388688A29E4119200BEFC50 /* Sources */,
+				7388688B29E4119200BEFC50 /* Frameworks */,
+				7388688C29E4119200BEFC50 /* Resources */,
+				738868DF29E4119300BEFC50 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				738868C329E4119300BEFC50 /* PBXTargetDependency */,
+			);
+			name = "Auto Copy";
+			productName = "Auto Copy";
+			productReference = 7388688E29E4119200BEFC50 /* Auto Copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		738868A929E4119300BEFC50 /* Auto CopyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 738868E329E4119300BEFC50 /* Build configuration list for PBXNativeTarget "Auto CopyTests" */;
+			buildPhases = (
+				738868A629E4119300BEFC50 /* Sources */,
+				738868A729E4119300BEFC50 /* Frameworks */,
+				738868A829E4119300BEFC50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				738868AC29E4119300BEFC50 /* PBXTargetDependency */,
+			);
+			name = "Auto CopyTests";
+			productName = "Auto CopyTests";
+			productReference = 738868AA29E4119300BEFC50 /* Auto CopyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		738868B329E4119300BEFC50 /* Auto CopyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 738868E629E4119300BEFC50 /* Build configuration list for PBXNativeTarget "Auto CopyUITests" */;
+			buildPhases = (
+				738868B029E4119300BEFC50 /* Sources */,
+				738868B129E4119300BEFC50 /* Frameworks */,
+				738868B229E4119300BEFC50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				738868B629E4119300BEFC50 /* PBXTargetDependency */,
+			);
+			name = "Auto CopyUITests";
+			productName = "Auto CopyUITests";
+			productReference = 738868B429E4119300BEFC50 /* Auto CopyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		738868BF29E4119300BEFC50 /* Auto Copy Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 738868DC29E4119300BEFC50 /* Build configuration list for PBXNativeTarget "Auto Copy Extension" */;
+			buildPhases = (
+				738868BC29E4119300BEFC50 /* Sources */,
+				738868BD29E4119300BEFC50 /* Frameworks */,
+				738868BE29E4119300BEFC50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Auto Copy Extension";
+			productName = "Auto Copy Extension";
+			productReference = 738868C029E4119300BEFC50 /* Auto Copy Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7388688629E4119200BEFC50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7388688D29E4119200BEFC50 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					738868A929E4119300BEFC50 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 7388688D29E4119200BEFC50;
+					};
+					738868B329E4119300BEFC50 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 7388688D29E4119200BEFC50;
+					};
+					738868BF29E4119300BEFC50 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 7388688929E4119200BEFC50 /* Build configuration list for PBXProject "Auto Copy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7388688529E4119200BEFC50;
+			productRefGroup = 7388688F29E4119200BEFC50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7388688D29E4119200BEFC50 /* Auto Copy */,
+				738868A929E4119300BEFC50 /* Auto CopyTests */,
+				738868B329E4119300BEFC50 /* Auto CopyUITests */,
+				738868BF29E4119300BEFC50 /* Auto Copy Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7388688C29E4119200BEFC50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738868ED29E4155A00BEFC50 /* manifest.json in Resources */,
+				7388689829E4119200BEFC50 /* Icon.png in Resources */,
+				738868A129E4119200BEFC50 /* Main.storyboard in Resources */,
+				7388689C29E4119200BEFC50 /* Script.js in Resources */,
+				7388689629E4119200BEFC50 /* Main.html in Resources */,
+				738868A329E4119300BEFC50 /* Assets.xcassets in Resources */,
+				7388689A29E4119200BEFC50 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		738868A829E4119300BEFC50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		738868B229E4119300BEFC50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		738868BE29E4119300BEFC50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738868D529E4119300BEFC50 /* popup.css in Resources */,
+				738868EC29E4120900BEFC50 /* manifest.json in Resources */,
+				738868D329E4119300BEFC50 /* popup.html in Resources */,
+				738868EF29E41C0C00BEFC50 /* background.js in Resources */,
+				738868CB29E4119300BEFC50 /* images in Resources */,
+				738868C929E4119300BEFC50 /* _locales in Resources */,
+				738868D129E4119300BEFC50 /* content.js in Resources */,
+				738868D729E4119300BEFC50 /* popup.js in Resources */,
+				738868EA29E411BC00BEFC50 /* autocopy.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7388688A29E4119200BEFC50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7388689E29E4119200BEFC50 /* ViewController.swift in Sources */,
+				7388689229E4119200BEFC50 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		738868A629E4119300BEFC50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738868AF29E4119300BEFC50 /* Auto_CopyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		738868B029E4119300BEFC50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738868BB29E4119300BEFC50 /* Auto_CopyUITestsLaunchTests.swift in Sources */,
+				738868B929E4119300BEFC50 /* Auto_CopyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		738868BC29E4119300BEFC50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738868C629E4119300BEFC50 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		738868AC29E4119300BEFC50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7388688D29E4119200BEFC50 /* Auto Copy */;
+			targetProxy = 738868AB29E4119300BEFC50 /* PBXContainerItemProxy */;
+		};
+		738868B629E4119300BEFC50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7388688D29E4119200BEFC50 /* Auto Copy */;
+			targetProxy = 738868B529E4119300BEFC50 /* PBXContainerItemProxy */;
+		};
+		738868C329E4119300BEFC50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 738868BF29E4119300BEFC50 /* Auto Copy Extension */;
+			targetProxy = 738868C229E4119300BEFC50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7388689429E4119200BEFC50 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7388689529E4119200BEFC50 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		7388689F29E4119200BEFC50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				738868A029E4119200BEFC50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		738868DA29E4119300BEFC50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		738868DB29E4119300BEFC50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		738868DD29E4119300BEFC50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Auto Copy Extension/Auto_Copy_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VW833873CN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Auto Copy Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Auto Copy Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Reiji990.Auto-Copy.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		738868DE29E4119300BEFC50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Auto Copy Extension/Auto_Copy_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VW833873CN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Auto Copy Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Auto Copy Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Reiji990.Auto-Copy.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		738868E129E4119300BEFC50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Auto Copy/Auto Copy.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VW833873CN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Auto Copy";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Reiji990.Auto-Copy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		738868E229E4119300BEFC50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Auto Copy/Auto Copy.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VW833873CN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Auto Copy";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Reiji990.Auto-Copy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		738868E429E4119300BEFC50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VW833873CN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Reiji990.Auto-CopyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Auto Copy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Auto Copy";
+			};
+			name = Debug;
+		};
+		738868E529E4119300BEFC50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VW833873CN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Reiji990.Auto-CopyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Auto Copy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Auto Copy";
+			};
+			name = Release;
+		};
+		738868E729E4119300BEFC50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VW833873CN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Reiji990.Auto-CopyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Auto Copy";
+			};
+			name = Debug;
+		};
+		738868E829E4119300BEFC50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VW833873CN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Reiji990.Auto-CopyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Auto Copy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7388688929E4119200BEFC50 /* Build configuration list for PBXProject "Auto Copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				738868DA29E4119300BEFC50 /* Debug */,
+				738868DB29E4119300BEFC50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		738868DC29E4119300BEFC50 /* Build configuration list for PBXNativeTarget "Auto Copy Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				738868DD29E4119300BEFC50 /* Debug */,
+				738868DE29E4119300BEFC50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		738868E029E4119300BEFC50 /* Build configuration list for PBXNativeTarget "Auto Copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				738868E129E4119300BEFC50 /* Debug */,
+				738868E229E4119300BEFC50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		738868E329E4119300BEFC50 /* Build configuration list for PBXNativeTarget "Auto CopyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				738868E429E4119300BEFC50 /* Debug */,
+				738868E529E4119300BEFC50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		738868E629E4119300BEFC50 /* Build configuration list for PBXNativeTarget "Auto CopyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				738868E729E4119300BEFC50 /* Debug */,
+				738868E829E4119300BEFC50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7388688629E4119200BEFC50 /* Project object */;
+}
