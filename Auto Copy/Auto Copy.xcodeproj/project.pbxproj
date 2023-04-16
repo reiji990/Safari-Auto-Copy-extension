@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73766A1E29E592E400767D93 /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 73766A1D29E592E400767D93 /* info.plist */; };
+		73766A2029E595DC00767D93 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 73766A1F29E595DC00767D93 /* Icon.icns */; };
 		7388689229E4119200BEFC50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7388689129E4119200BEFC50 /* AppDelegate.swift */; };
 		7388689629E4119200BEFC50 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 7388689429E4119200BEFC50 /* Main.html */; };
 		7388689829E4119200BEFC50 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7388689729E4119200BEFC50 /* Icon.png */; };
@@ -71,6 +73,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		73766A1D29E592E400767D93 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
+		73766A1F29E595DC00767D93 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 		7388688E29E4119200BEFC50 /* Auto Copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Auto Copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7388689129E4119200BEFC50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7388689529E4119200BEFC50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
@@ -137,6 +141,7 @@
 		7388688529E4119200BEFC50 = {
 			isa = PBXGroup;
 			children = (
+				73766A1F29E595DC00767D93 /* Icon.icns */,
 				7388689029E4119200BEFC50 /* Auto Copy */,
 				738868AD29E4119300BEFC50 /* Auto CopyTests */,
 				738868B729E4119300BEFC50 /* Auto CopyUITests */,
@@ -166,6 +171,7 @@
 				738868A429E4119300BEFC50 /* Auto_Copy.entitlements */,
 				738868A529E4119300BEFC50 /* Auto Copy.entitlements */,
 				7388689329E4119200BEFC50 /* Resources */,
+				73766A1D29E592E400767D93 /* info.plist */,
 			);
 			path = "Auto Copy";
 			sourceTree = "<group>";
@@ -352,6 +358,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73766A2029E595DC00767D93 /* Icon.icns in Resources */,
+				73766A1E29E592E400767D93 /* info.plist in Resources */,
 				738868ED29E4155A00BEFC50 /* manifest.json in Resources */,
 				7388689829E4119200BEFC50 /* Icon.png in Resources */,
 				738868A129E4119200BEFC50 /* Main.storyboard in Resources */,
@@ -657,6 +665,7 @@
 				DEVELOPMENT_TEAM = VW833873CN;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Auto Copy/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Auto Copy";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
@@ -693,6 +702,7 @@
 				DEVELOPMENT_TEAM = VW833873CN;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Auto Copy/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Auto Copy";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
